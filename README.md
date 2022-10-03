@@ -21,6 +21,7 @@ Azure PaaS App and Data Reference Architecture
   - Log Analytics
 - Identity
   - Azure AD
+  - User Managed Identity
 
 ### Security
 #### Networking
@@ -33,7 +34,7 @@ Azure PaaS App and Data Reference Architecture
 - Encryption in transit and at rest
 - AAD integration
 #### Application
-- Application leverages User Manage Idenity (can connect to services without passwords)
+- Application leverages User Managed Idenity (can connect to services without passwords)
 ### Scalabiltiy
 #### Web App
 - Can scale up or out with rules
