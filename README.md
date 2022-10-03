@@ -1,4 +1,5 @@
-# azure-app-data
+# Secure Azure Solutions
+
 Azure PaaS App and Data Reference Architecture
 
 ## Secure App Services and Azure SQL Solution
