@@ -5,6 +5,14 @@ Azure PaaS App and Data Reference Architecture
 
 ### Solution Diagram
 ![Solution Diagram](https://github.com/msalemor/azure-app-data/blob/main/images/secure-paas-data-app.png)
+### Azure Services
+- FrontDoor Premium
+- Private Endpoint (Web and SQL)
+- App Services
+- Azure SQL
+- Application Insights
+- Azure AD
+- Log Analytics
 ### Security
 #### Networking
 - Traffic is WAF ispected for attacks
@@ -20,4 +28,6 @@ Azure PaaS App and Data Reference Architecture
 ### Scalabiltiy
 #### Web App
 - Can scale up or out with rules
+#### Database
+- Database can be scaled in and out
 ### Resiliency
