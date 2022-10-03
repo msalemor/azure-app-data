@@ -1,7 +1,7 @@
 # azure-app-data
 Azure PaaS App and Data Reference Architecture
 
-## Secure Solution
+## Secure App Service and SQL Solution
 
 ### Solution Diagram
 ![Solution Diagram](https://github.com/msalemor/azure-app-data/blob/main/images/secure-paas-data-app.png)
