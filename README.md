@@ -6,13 +6,21 @@ Azure PaaS App and Data Reference Architecture
 ### Solution Diagram
 ![Solution Diagram](https://github.com/msalemor/azure-app-data/blob/main/images/secure-paas-data-app.png)
 ### Azure Services
-- FrontDoor Premium
-- Private Endpoint (Web and SQL)
-- App Services
-- Azure SQL
-- Application Insights
-- Azure AD
-- Log Analytics
+- Networking
+  - VNET/Subnets
+  - NSGs
+  - FrontDoor Premium with WAF
+  - Private Endpoint (Web and SQL)
+- Compute
+  - App Services
+- Database
+  - Azure SQL
+- Telemetry:
+  - Application Insights
+  - Log Analytics
+- Identity
+  - Azure AD
+
 ### Security
 #### Networking
 - Traffic is WAF ispected for attacks
